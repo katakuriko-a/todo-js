@@ -1,4 +1,5 @@
-import "./styles.css";
+"use strict# {
+
 
 //追加ボタン
 const onClickAdd = () => {
@@ -71,3 +72,5 @@ const inputButton = document.getElementById("inputButton");
 inputButton.addEventListener("click", () => {
   onClickAdd();
 });
+
+}
